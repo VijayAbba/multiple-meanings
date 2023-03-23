@@ -1,0 +1,31 @@
+.header-bg-container {
+  /* border: 2px solid silver; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  box-shadow: 0px 4px 14px 2px #bfbfbf50;
+  background-color: #ffffff50;
+}
+
+.header-links-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.logo-img {
+  height: 50px;
+  border-radius: 25px;
+}
+
+.route-link {
+  color: #000000;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}

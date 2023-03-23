@@ -1,0 +1,49 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid silver;
+}
+
+.home-heading {
+  color: #000000;
+}
+
+.text-area-styles {
+  outline: none;
+  width: 50%;
+  height: 130px;
+  border-width: 0px;
+  padding: 10px;
+  font-size: 20px;
+  resize: none;
+  border-radius: 8px;
+}
+
+.button {
+  background-color: #25b9b9;
+  color: #ffffff;
+  border-width: 0px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.results-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.single-card {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
