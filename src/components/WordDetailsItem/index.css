@@ -1,0 +1,15 @@
+.frame-container{
+    
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+
+
+.iframesWord{
+    width: 450px;
+    height: 800px;
+    margin-top: 40px;
+    border-radius: 10px;
+} 

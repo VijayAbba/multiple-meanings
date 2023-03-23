@@ -1,0 +1,14 @@
+.word-item{
+    border: 2px solid goldenrod;
+    margin: 10px;
+    padding: 10px;
+    background-color: ghostwhite; 
+    border-radius: 5px;
+
+} 
+
+.link-text{
+    text-decoration: none;
+    color: #000000;
+} 
+

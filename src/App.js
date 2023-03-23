@@ -4,9 +4,10 @@ import Home from "./components/Home";
 import ReactPopUp from "./components/PopUpTest";
 
 import VideoPlayer from "./components/VideoPlayer";
+import WordDetailsItem from './components/WordDetailsItem'
 
 import NotFound from "./components/NotFound";
-import "./App.css";
+import "./App.css"
 
 const App = () => (
   <div className="app-background-container">
@@ -16,6 +17,7 @@ const App = () => (
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<ReactPopUp />} />
         <Route exact path="/video" element={<VideoPlayer />} />
+        <Route exact path="/meanings/:id" element={<WordDetailsItem />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

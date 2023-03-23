@@ -1,6 +1,8 @@
 import { Component } from "react";
-import WordCard from "../WordCard";
+
 import "./index.css";
+
+import Word from '../Word'
 
 class Home extends Component {
   state = { text: "", generatedWords: [] };
@@ -39,13 +41,19 @@ class Home extends Component {
           Generate
         </button>
 
-        <div className="">
+        {/* <div className="">
           <ul className="results-card">
             {generatedWords.map((eachItem) => (
               <WordCard word={eachItem} key={eachItem} />
             ))}
           </ul>
-        </div>
+          ///   --->>   <li><Link to={`/meanings/${eachWord}`} >{eachWord}</Link></li>
+        </div> */}
+      
+      <ul className="words-card">
+        {generatedWords.map(eachWord => <Word key={eachWord} word={eachWord} />  )}
+      </ul>
+
       </div>
     );
   }
